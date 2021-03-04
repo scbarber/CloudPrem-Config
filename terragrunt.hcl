@@ -1,8 +1,8 @@
 remote_state {
   backend = "s3"
   config = {
-    bucket         = "cloudprem-terrafom-state-${local.state_region}-${get_aws_account_id()}"
-    dynamodb_table = "cloudprem-terrafom-lock"
+    bucket         = "dozuki-terraform-state-${local.state_region}-${get_aws_account_id()}"
+    dynamodb_table = "dozuki-terraform-lock"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = local.state_region
     encrypt        = true
