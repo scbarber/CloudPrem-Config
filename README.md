@@ -33,4 +33,4 @@ $ terragrunt destroy
 
 #### Pipelines
 
-You can also deploy some pre-packaged CodePipeline pipelines to streamline the deployment process. For more information check the [Cloudprem Pipelines](https://github.com/nclouds/doz-cloudprem-pipeline) repository
+You can also deploy some pre-packaged CodePipeline pipelines to streamline the deployment process. For more information check the [Cloudprem Pipelines](https://github.com/Dozuki/CloudPrem) repository
